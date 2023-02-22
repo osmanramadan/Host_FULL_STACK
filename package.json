@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "frontend:install": "cd reactnd-contacts-complete && npm install -f",
+        "frontend:start": "cd reactnd-contacts-complete && npm run start",
+        "frontend:build": "cd reactnd-contacts-complete && npm run build",
+        "frontend:test": "cd reactnd-contacts-complete && npm run test",
+        "frontend:deploy": "cd reactnd-contacts-complete && npm run deploy",
+
+        "api:install": "cd reactnd-contacts-server && npm install .",
+        "api:build": "cd reactnd-contacts-server && npm run build",
+        "api:start": "cd reactnd-contacts-server && npm run start",
+        "api:deploy": "cd reactnd-contacts-server && npm run deploy",
+
+        "deploy:two": "npm run api:deploy && npm run frontend:deploy"
+    }
+}
