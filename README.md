@@ -36,3 +36,14 @@
 
 ## more info
 - look at docs
+
+## variables 
+- place it in .env file in api code
+POSTGRES_HOST
+POSTGRES_USERNAME
+POSTGRES_PASSWORD
+POSTGRES_DB
+PORT
+- if you use circleci put the following in variables configurations, to open your account in aws after that will push api code beside front end code 
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
