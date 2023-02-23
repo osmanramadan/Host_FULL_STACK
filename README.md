@@ -1,6 +1,6 @@
 # Hosting a Full-Stack Application
-1- backend =>reactnd-contacts-server   (contain api link ,RDS DB)
-2- frontend =>reactnd-contacts-complete (contain bucket files)
+1- backend  =>reactnd-contacts-server   (contain api link ,RDS DB)
+1- frontend =>reactnd-contacts-complete (contain bucket files)
 
 
 ### Dependencies
@@ -38,12 +38,12 @@
 - look at docs
 
 ## variables 
-- place it in .env file in api code
+1- place it in .env file in api code <br>
 POSTGRES_HOST
 POSTGRES_USERNAME
 POSTGRES_PASSWORD
 POSTGRES_DB
 PORT
-- if you use circleci put the following in variables configurations, to open your account in aws after that will push api code beside front end code 
+1- if you use circleci put the following in variables configurations, to open your account in aws after that will push api code beside front end code <br>
 AWS_ACCESS_KEY_ID
 AWS_SECRET_ACCESS_KEY
